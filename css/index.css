@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&family=Poppins:wght@200&display=swap);
+
+.row{
+    width: 50%;
+    left: 11%;
+    position: fixed;
+
+    /* border: 2px solid blue; */
+}
+
+header {
+    padding: 20px 0 0 0;
+    background: #f1f1f1;
+}
+
+.logo_box {
+    height: 100%;
+    /* text-align: center; */
+    /* margin: 5px; */
+}
+
+.BACKGROUND{
+    height: 100vh;
+    background-image: url('/images/BACKGROUND01.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.TEXT{
+    margin-left: 1%;
+    margin-top: 12%;  
+}
+.contents{
+    font-family: 'Pretendard', sans-serif;
+    text-align: left;
+    letter-spacing: -0.02em; 
+    margin-bottom: 20px; 
+    font-size: clamp(0.9rem,1vw,1.1rem);
+    text-shadow:0px 0px 12px rgba(0,0,0,0.1); 
+    line-height: 1.7em; 
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+#doz_footer .footer-section {
+    font-family: 'Noto Sans Korean', sans-serif;
+    font-size        :14px;
+    background-repeat: no-repeat;
+    background-position : 0%;
+    background-color :rgba(56,56,56,1);
+    -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff383838,endColorstr=#ff383838);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff383838,endColorstr=#ff383838);	zoom: 1;
+    color : #ffffff;;
+    color            :rgba(255, 255, 255, 0.8);
+    padding-top      : 20px;
+    padding-bottom   : 20px;
+}
+#doz_footer .footer-section a {
+    color : #ffffff;
+    color:rgba(255, 255, 255, 0.8) !important;
+}
+#doz_footer .footer-section .custom-text .custom-text-info p,
+#doz_footer .footer-section .custom-text .custom-text-info p+p {
+    margin-bottom: 10px;
+}
+
+
