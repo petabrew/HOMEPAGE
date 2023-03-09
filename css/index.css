@@ -1,20 +1,37 @@
 @import url(https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&family=Poppins:wght@200&display=swap);
 
+/* Default CSS */
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+body {
+    font-size: 15px;
+    font-family: 'Pretendard', sans-serif;
+    line-height: 1.6em;
+    background-color: #fff;
+    color: #222;
+    margin: 0;
+    border: 2px solid blue;
+}
+
 .BACKGROUND{
     height: 100vh;
+    display: grid;
+    justify-items: center;
+    align-content: center;
     background-image: url('../images/BACKGROUND01.png');
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .row{
-    width: 55%;
+    width: 600px;
     left: 11%;
     position: fixed;
     font-family: 'Pretendard', sans-serif;
     z-index: 1;
-    /* border: 2px solid blue; */
+    border: 2px solid red;
 }
 
 /* HEADER */
@@ -29,7 +46,7 @@ header {
 /* TEXT */
 .TEXT{
     margin-left: 1%;
-    margin-top: 12%;  
+    margin-top: 30%;  
 }
 .contents{
     text-align: left;
@@ -59,11 +76,6 @@ header {
     background-size: cover;
     background-position: top;
 }
-.radar_img{
-    position: absolute; top:0; left: 0;
-    width: 100%;
-    height: 100%;
-}
 .radar-title{
     display: block;
     text-align: center;
@@ -90,7 +102,6 @@ header {
 
 /* FOOTER */
 #doz_footer .footer-section {
-    font-size        :14px;
     background-repeat: no-repeat;
     background-position : 0%;
     background-color :rgba(56,56,56,1);
