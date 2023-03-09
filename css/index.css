@@ -1,38 +1,37 @@
 @import url(https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&family=Poppins:wght@200&display=swap);
 
-.row{
-    width: 50%;
-    left: 11%;
-    position: fixed;
-
-    /* border: 2px solid blue; */
-}
-
-header {
-    padding: 20px 0 0 0;
-    background: #f1f1f1;
-}
-
-.logo_box {
-    height: 100%;
-    /* text-align: center; */
-    /* margin: 5px; */
-}
-
 .BACKGROUND{
     height: 100vh;
-    background-image: url('/images/BACKGROUND01.png');
+    background-image: url('../images/BACKGROUND01.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
+.row{
+    width: 55%;
+    left: 11%;
+    position: fixed;
+    font-family: 'Pretendard', sans-serif;
+    z-index: 1;
+    /* border: 2px solid blue; */
+}
+
+/* HEADER */
+header {
+    padding: 20px 0 0 0;
+    background: #f1f1f1;
+}
+.logo_box {
+    height: 100%;
+}
+
+/* TEXT */
 .TEXT{
     margin-left: 1%;
     margin-top: 12%;  
 }
 .contents{
-    font-family: 'Pretendard', sans-serif;
     text-align: left;
     letter-spacing: -0.02em; 
     margin-bottom: 20px; 
@@ -43,8 +42,54 @@ header {
     color: rgba(0, 0, 0, 0.9);
 }
 
+
+/* RADAR */
+.radar {
+    margin-top: 150px; 
+    width: 900px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 100px;
+}
+.item.thum .photo {
+    height: 200px;
+    border-radius: 45px;
+    box-shadow: 0 4px 25px -15px rgba(0, 0, 0, 0.55);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.radar_img{
+    position: absolute; top:0; left: 0;
+    width: 100%;
+    height: 100%;
+}
+.radar-title{
+    display: block;
+    text-align: center;
+    margin-top: 8px;
+}
+.item.thum:nth-of-type(1) .photo {
+    background-image: url(../images/favicon_package_v0.16/android-chrome-192x192.png);
+}
+.item.thum:nth-of-type(2) .photo {
+    background-image: url(../images/favicon_package_v0.16/android-chrome-192x192.png);
+}
+.item.thum:nth-of-type(3) .photo {
+    background-image: url(../images/favicon_package_v0.16/android-chrome-192x192.png);
+}
+.btn-view {
+    text-decoration-line:none;
+    color: inherit;
+    padding: 2px 8px;
+    border-radius: 3px;
+    background-color: rgba(118,118,118,0.15);
+}
+
+
+
+/* FOOTER */
 #doz_footer .footer-section {
-    font-family: 'Noto Sans Korean', sans-serif;
     font-size        :14px;
     background-repeat: no-repeat;
     background-position : 0%;

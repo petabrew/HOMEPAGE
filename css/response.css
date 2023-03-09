@@ -1,0 +1,27 @@
+/* Mobile Layout */
+@media (max-width: 767px) {
+    /* Section : radar */
+    section.radar {
+    align-content: start;
+    height: auto;
+    padding: 20px;
+    }
+    .radar {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+  /* Tablet Layout */
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Section : radar */
+    section.radar {
+    align-content: start;
+    height: auto;
+    padding: 40px;
+    }
+    .radar {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    }
+}
