@@ -21,7 +21,7 @@ header {
 
 .BACKGROUND{
     height: 100vh;
-    background-image: url('images/BACKGROUND01.png');
+    background-image: url('/images/BACKGROUND01.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
