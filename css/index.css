@@ -12,17 +12,27 @@ body {
     background-color: #fff;
     color: #222;
     margin: 0;
-    border: 2px solid blue;
+}
+
+/* HEADER */
+header {
+    padding: 20px 0 0 0;
+}
+.normal_logo_front_img{
+    width: 300px;
 }
 
 .BACKGROUND{
+    /* height: 84vh; */
     height: 100vh;
     display: grid;
-    justify-items: center;
+    /* justify-items: ; */
     align-content: center;
     background-image: url('../images/BACKGROUND01.png');
     background-position: center;
     background-repeat: no-repeat;
+
+    /* border: 2px solid purple; */
 }
 
 .row{
@@ -31,22 +41,14 @@ body {
     position: fixed;
     font-family: 'Pretendard', sans-serif;
     z-index: 1;
-    border: 2px solid red;
 }
 
-/* HEADER */
-header {
-    padding: 20px 0 0 0;
-    background: #f1f1f1;
-}
-.logo_box {
-    height: 100%;
-}
+
 
 /* TEXT */
 .TEXT{
     margin-left: 1%;
-    margin-top: 30%;  
+    margin-top: 25%;  
 }
 .contents{
     text-align: left;
@@ -62,7 +64,9 @@ header {
 
 /* RADAR */
 .radar {
-    margin-top: 150px; 
+    margin-top: 20%; 
+    left: 11%;
+    position: fixed;
     width: 900px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
