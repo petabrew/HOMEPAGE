@@ -1,44 +1,35 @@
 /* Mobile Layout */
 @media (max-width: 767px) {
-    .BACKGROUND{
-    height: 150vh;
+    /* Common CSS */
+    .normal_logo_front_img{ 
+      margin-left: 8%;
     }
-    .row{
-      left: 7%;
-    }
-    section.radar {
-    align-content: start;
-    height: auto;
-    padding: 0px;
-    
-    margin-top: 100%; 
-    left: 30%;
-    }
-    .radar {
-    width: 40%;
-    grid-template-columns: repeat(1, 1fr);
-    }
+    /* Section : Background */
+    section.Background {
+        align-content: start;
+        height: auto;
+        padding: 20px;
+        }
+    .items {
+        width: 50%;
+        margin-top: 15%;
+        margin-left: 25%;
+        grid-template-columns: repeat(1, 1fr);
+        }
 }
 
   /* Tablet Layout */
 @media (min-width: 768px) and (max-width: 1023px) {
-  .BACKGROUND{
-    height: 120vh;
-    }
-    .row{
-      left: 10%;
-    }
+    /* Common CSS */
 
-    section.radar {
-    align-content: start;
-    height: auto;
-    padding: 0px;
-
-    margin-top: 60%; 
-    left: 11%;
-    }
-    .radar {
-    width: 60%;
-    grid-template-columns: repeat(2, 1fr);
-    }
+    /* Section : Background */
+    section.Background {
+        align-content: start;
+        height: auto;
+        padding: 40px;
+        }
+        .items {
+          width: 60%;
+          grid-template-columns: repeat(2, 1fr);
+        }
 }

@@ -9,65 +9,51 @@ body {
     font-size: 15px;
     font-family: 'Pretendard', sans-serif;
     line-height: 1.6em;
-    background-color: #fff;
     color: #222;
     margin: 0;
 }
-
-/* HEADER */
-header {
-    padding: 20px 0 0 0;
+a {
+    text-decoration: none;
+    color: #222;
 }
-.normal_logo_front_img{
+
+  /* Section : Background */
+section.Background {
+    height: 100vh;
+    align-content: center;
+    background: url(../images/BACKGROUND01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* logo css */
+.normal_logo_front_img{ 
+    margin-top: 1%; 
+    margin-left: 11%;
     width: 300px;
 }
 
-.BACKGROUND{
-    /* height: 84vh; */
-    height: 100vh;
-    display: grid;
-    /* justify-items: ; */
-    align-content: center;
-    background-image: url('../images/BACKGROUND01.png');
-    background-position: center;
-    background-repeat: no-repeat;
-
-    /* border: 2px solid purple; */
-}
-
-.row{
-    width: 600px;
-    left: 11%;
-    position: fixed;
-    font-family: 'Pretendard', sans-serif;
-    z-index: 1;
-}
-
-
-
-/* TEXT */
+  /* Text */
 .TEXT{
-    margin-left: 1%;
-    margin-top: 25%;  
+    margin-left: 11%;
+    margin-top: 5%;  
 }
 .contents{
     text-align: left;
     letter-spacing: -0.02em; 
     margin-bottom: 20px; 
-    font-size: clamp(0.9rem,1vw,1.1rem);
+    font-size: clamp(0.8rem,1.5vw,1.1rem);
     text-shadow:0px 0px 12px rgba(0,0,0,0.1); 
     line-height: 1.7em; 
     font-weight: 300;
     color: rgba(0, 0, 0, 0.9);
 }
 
-
-/* RADAR */
-.radar {
-    margin-top: 20%; 
-    left: 11%;
-    position: fixed;
+/* Photo List */
+.items {
+    margin-top: 8%; 
     width: 900px;
+    margin-left: 11%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 100px;
@@ -80,11 +66,6 @@ header {
     background-size: cover;
     background-position: top;
 }
-.radar-title{
-    display: block;
-    text-align: center;
-    margin-top: 8px;
-}
 .item.thum:nth-of-type(1) .photo {
     background-image: url(../images/favicon_package_v0.16/android-chrome-192x192.png);
 }
@@ -94,15 +75,17 @@ header {
 .item.thum:nth-of-type(3) .photo {
     background-image: url(../images/favicon_package_v0.16/android-chrome-192x192.png);
 }
-.btn-view {
-    text-decoration-line:none;
+.item.thum span {
+    display: block;
+    text-align: center;
+    margin-top: 7px;
+}
+.btn-view{
     color: inherit;
     padding: 2px 8px;
     border-radius: 3px;
     background-color: rgba(118,118,118,0.15);
 }
-
-
 
 /* FOOTER */
 #doz_footer .footer-section {
