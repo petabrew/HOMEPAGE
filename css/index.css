@@ -29,7 +29,7 @@ section.Background {
 /* logo css */
 .normal_logo_front_img{ 
     margin-top: 1%; 
-    margin-left: 10.5%;     /* test */
+    margin-left: 10.5%;
     width: 300px;
 }
 
@@ -50,7 +50,7 @@ section.Background {
 }
 
 /* Photo List */
-.items {
+/* .items {
     margin-top: 8%; 
     width: 900px;
     margin-left: 11%;
@@ -67,13 +67,13 @@ section.Background {
     background-position: top;
 }
 .item.thum:nth-of-type(1) .photo {
-    background-image: url(../images/favicon_package_v0.16/android-chrome-192x192.png);
+    background-image: url(../images/60GHz_1.jpg);
 }
 .item.thum:nth-of-type(2) .photo {
-    background-image: url(../images/favicon_package_v0.16/android-chrome-192x192.png);
+    background-image: url(../images/60GHzRadar.png);
 }
 .item.thum:nth-of-type(3) .photo {
-    background-image: url(../images/favicon_package_v0.16/android-chrome-192x192.png);
+    background-image: url(../images/80GHzRadar.png);
 }
 .item.thum span {
     display: block;
@@ -85,7 +85,7 @@ section.Background {
     padding: 2px 8px;
     border-radius: 3px;
     background-color: rgba(118,118,118,0.15);
-}
+} */
 
 /* FOOTER */
 #doz_footer .footer-section {
