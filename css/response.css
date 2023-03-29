@@ -1,0 +1,25 @@
+/* Mobile Layout */
+@media (max-width: 767px) {
+    /* Common CSS */
+    .normal_logo_front_img{ 
+      margin-left: 8%;
+    }
+    /* Section : Background */
+    section.Background {
+        align-content: start;
+        height: auto;
+        padding: 20px;
+        }
+}
+
+  /* Tablet Layout */
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Common CSS */
+    
+    /* Section : Background */
+    section.Background {
+        align-content: start;
+        height: auto;
+        padding: 40px;
+        }
+}
