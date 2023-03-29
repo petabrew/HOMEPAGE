@@ -42,19 +42,14 @@ header {
     font-weight: 300;
     color: rgba(0, 0, 0, 0.9);
 }
-<<<<<<< master
-
-=======
-/* FOOTER */
->>>>>>> local
 #doz_footer .footer-section {
     font-family: 'Noto Sans Korean', sans-serif;
     font-size        :14px;
     background-repeat: no-repeat;
     background-position : 0%;
     background-color :rgba(56,56,56,1);
-    -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff383838,endColorstr=#ff383838);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff383838,endColorstr=#ff383838);	zoom: 1;git 
-    color : #ffffff;;
+    -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff383838,endColorstr=#ff383838);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff383838,endColorstr=#ff383838);	zoom: 1;
+    color : #ffffff;
     color            :rgba(255, 255, 255, 0.8);
     padding-top      : 20px;
     padding-bottom   : 20px;
